@@ -17,13 +17,13 @@ const Navbar =()=>(
                     <Link href='/' passHref>
                         <MenuItem icon={<FcHome/>}>Home</MenuItem>
                     </Link>
-                    <Link href='/' passHref>
+                    <Link href='/search' passHref>
                         <MenuItem icon={<BsSearch/>}>search</MenuItem>
                     </Link>
-                    <Link href='/' passHref>
+                    <Link href='/search?purpose=for-sale' passHref>
                         <MenuItem icon={<FcAbout/>}>Buy Property</MenuItem>
                     </Link>
-                    <Link href='/' passHref>
+                    <Link href='/search?search?purpose=for-rent' passHref>
                         <MenuItem icon={<FiKey/>}>rent Property</MenuItem>
                     </Link>
 
